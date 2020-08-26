@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body
+{
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.navbar-brand img 
+{
+   width:150px; 
+}
+
+/*.navbar-expand-lg .navbar-toggler
+ {
+ 	display:active;
+ }
+*/
+
+
+header
+{
+  background-color:#37517E;
+  background-image:url(../images/network.png);
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:right center;
+  background-position-x:right;
+  background-position-y:center;
+}
+
+.blue
+{
+ background-color:#47B2E4;
+ color:#fff;
+}
+
+header h1
+{
+ font-size:44px ;
+ font-weight:700;
+ line-height:1.6;
+}
+
+header p
+{
+ line-height:1.8;
+ font-weight:500;
+ margin:30px 0 ;
+}
+ header .btn
+ {
+   line-height:1.8;
+   font-weight:500;
+   display:inline-flex;
+   align-items:center;
+ }
+
+.banner-content
+{
+ padding-top:150px;
+  padding-bottom:150px;
+
+}
+
+
+ header .btn i
+ {
+   font-weight:40px;
+   color:#47B2E4;
+ }
+  header .btn:hover
+  {
+   box-shadow:0 0 0 rgba(0,0 0, 0)! important;
+   color:#fff;
+  }
+  .navbar-dark navbar-nav nav-link
+  { 
+  	color: rgb(255 255 255);
+  	font-weight:500px;
+  	font-size:16px;
+  	letter-spacing:1px;
+  }
+
+  .navbar-dark navbar-nav nav-link:hover,.navbar-dark navbar-nav nav-link:focus
+  {
+  	color: rgb(71 178 228)!important;
+  }
+
+  .img-fluid
+  {
+  max-width: 100px;
+}
